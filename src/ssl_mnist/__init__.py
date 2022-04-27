@@ -1,3 +1,7 @@
+import numpy as np
+from tensorflow import keras
+import tensorflow as tf
+
 class NormalSampling(keras.layers.Layer):
   """Implements reparametrization trick (based on VAE Keras example)."""
 
